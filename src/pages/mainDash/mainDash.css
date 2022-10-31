@@ -1,0 +1,19 @@
+.mainDash{
+    /* padding-top: 1rem; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+@media screen and (max-width: 1200px) {
+   .mainDash{
+    justify-content: flex-start;
+    margin-top: 2rem;       
+    }
+}
+
+@media screen and (max-width: 780px){
+    .mainDash {
+        align-items: center;
+    }
+}
